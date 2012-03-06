@@ -1,5 +1,10 @@
 <?php 
 require_once("start.php");
-echo "asdasd";
+require_once("functions.php");
+
+dbConnect();
+
+//backupDatabase();
+
 require_once("finish.php");
 ?>
